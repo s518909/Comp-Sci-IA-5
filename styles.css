@@ -1,0 +1,56 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 1%;
+  padding: 1%;
+}
+
+/* Navigation bar styles */
+header {
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin: 0 1em;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: white;
+}
+
+/* Page styles */
+.page {
+  display: none; /* Hide all pages by default */
+}
+
+/* Home page styles */
+#home {
+  display: block; /* Show home page on page load */
+  padding: 20px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 10px;
+}
